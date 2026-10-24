@@ -1,0 +1,156 @@
+/* Genel Ayarlar ve Arka Plan */
+body {
+    background-color: #313338; /* Discord koyu tema arka plan rengi */
+    color: #dbdee1;            /* Açık gri metin rengi */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigasyon Çubuğu */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2d31;
+    padding: 15px 50px;
+    border-bottom: 1px solid #1f2023;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #dbdee1;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+/* Hero Bölümü */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #5865F2;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #949ba4;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Buton Tasarımları */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #5865F2;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #4752C4;
+}
+
+.btn-secondary {
+    background-color: #4e5058;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #6d6f78;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #4e5058;
+}
+
+.btn-outline:hover {
+    background-color: #35373c;
+}
+
+/* İstatistikler */
+.stats-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    background-color: #2b2d31;
+}
+
+.stat-card {
+    background-color: #313338;
+    padding: 25px 40px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #3f4147;
+}
+
+.stat-card h3 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.stat-card p {
+    color: #949ba4;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1f22;
+    color: #949ba4;
+    font-size: 13px;
+}
